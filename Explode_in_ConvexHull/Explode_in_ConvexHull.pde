@@ -1,14 +1,14 @@
 int n = 120;
 float aSize;
-float drag = 0.97;
-float explPow = 100;
+float drag = 0.97;//0.97
+float explPow = 20;//100
 float basehue = 0;
 ArrayList<Agent> agents = new ArrayList<Agent>();
 Polygon polygon;
 
 void setup(){
-  //size(500, 500);
-  fullScreen();
+  size(500, 500);
+  //fullScreen();
   aSize = float(height)/20;
   colorMode(HSB, 360, 100, 100, 100);
   polygon = new Polygon();
